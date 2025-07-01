@@ -23,7 +23,7 @@ function updateClock(){
 
     hours = hours % 12 || 12
 
-    const timestring =  hours +":" + minutes  +":" + seconds +" " + ampm
+    const timestring =  hours +":" + minutes  +":" + seconds 
     // console.log (timestring)
     document.getElementById("time").textContent=`The time is  ${timestring}`
 
